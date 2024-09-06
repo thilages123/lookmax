@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 style="margin-left: 10px;">LookMax</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="ECOM.html">Home</a></p>
+            <p class="navbar-link"><a href="Collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="Contact.html">Contact</a></p>
+
+        </div>
+        <div class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars" onclick="pop()"></i>
+        </div>
+        <div class="overlay">
+            <div class="inside">
+                <i class="fa-solid fa-xmark" id="xmrk" onclick="closer()"></i>
+            </div>
+            <a href="ECOM.html" class="inside" style="margin-top: 50px;">Home</a>
+            <a href="" class="inside">New Arrival</a>
+            <a href="" class="inside">Most Wanted</a>
+            <a href="Collections.html" class="inside">Collections</a>
+            <a href="Contact.html" class="inside">Contact Us</a>
+
+        </div>
+    </nav>
+    <div class="searchbar">
+        <input placeholder="Search " id="ser" onkeyup="search(event)">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="imgscon">
+        <div class="fblock">
+            <img src="black shirt.jpeg" alt="">
+            <p>Black shirt</p>
+        </div>
+        <div class="fblock">
+            <img src="bracelet.jpeg" alt="">
+            <p>Bracelet</p>
+        </div>
+        <div class="fblock">
+            <img src="hairwax.jpg" alt="">
+            <p>Hairwax</p>
+        </div>
+        <div class="fblock">
+            <img src="sauvage.png" alt="">
+            <p>Sauvage</p>
+        </div>
+        <div class="fblock">
+            <img src="shoes.jpeg" alt="">
+            <p>Shoes</p>
+        </div>
+        <div class="fblock">
+            <img src="sunglasses.jpg" alt="">
+            <p>Sunglasses</p>
+        </div>
+        <div class="fblock">
+            <img src="tshirt.jpeg" alt="">
+            <p>T-shirt</p>
+        </div>
+        <div class="fblock">
+            <img src="whitesneakers.jpeg" alt="">
+            <p>White-sneakers</p>
+        </div>
+    </div>
+    <div class="btbox">
+        <div class="innnn">
+            <h1 style="color: white;">LookMax</h1>
+            <p>I’m always excited to connect with new people and explore fresh opportunities. Feel free to reach out anytime!</p>
+            <p><i class="fa-regular fa-envelope"></i> thilagesh55555@gmail.com</p>
+            <p><i class="fa-brands fa-instagram"></i> be_yonder_05</p>
+            <p><i class="fa-solid fa-phone"></i> +91 9842148456</p>
+        </div>
+    </div>
+
+</body>
+<script src="collscript.js"></script>
+
+</html>
