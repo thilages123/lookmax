@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button:hover{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    z-index: 2;
+}
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+    margin-right: 20px;
+}
+.navbar-links a{
+    color: grey;
+    text-decoration: none;
+}
+.navbar-links a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navbar-menu-toggle{
+    display: none;
+    margin-right: 10px;
+    z-index: 2;
+}
+@media screen and (max-width:600px){
+    .navbar-menu-toggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .header img{
+        display: none;
+    }
+    .bott{
+        flex-direction: column;
+    }
+    .bott div{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+}
+
+.overlay{
+    background-color: rgb(1, 0, 4);
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    left: -50%;
+    top: 0px;
+    z-index: 1;
+    transition: 2s;
+
+}
+.inside{
+    color: aliceblue;
+    display: block;
+    margin: 20px;
+    margin-left: 20px;
+    color: rgb(219, 203, 203);
+    text-decoration: none;
+}
+.inside:hover{
+    color: white;
+    text-decoration: underline;
+}
+#xmrk{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#shop-now-btn{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#shop-now-btn:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bott{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+.box1{
+    background-color: rgb(232, 231, 229);
+    width: 28%;
+    word-wrap: break-word;
+    padding: 20px;
+    border-radius: 15px;
+}
+.new-arr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#shnow1{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 0;
+}
+.imgcon1{
+    position: relative;
+    flex-basis: 20%;
+}
+.imgcon1 img{
+    border-radius: 20px;
+}
+.newslet{
+    text-align: center;
+    padding: 50px;
+}
+.subin{
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 4px;
+}
+.subin:focus{
+    outline: none;
+}
+.btbox{
+    background-color: black;
+}
+
+.innnn{
+    padding: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: none;   
+}
+.innnn h1,p{
+    margin: 10px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#ser{
+    width: 80%;
+    padding: 10px;
+    margin-top: 3%;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: black;
+}
+#ser:hover{
+    cursor: pointer;
+}
+
+.searchbar i{
+    position: absolute;
+    top: 65%;
+    right: 10%;
+}
+.imgscon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 10px;
+}
+.fblock{
+    flex-basis: 20%;
+    padding: 20px;
+}
+.fblock img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.conlast{
+    background-color: black;
+    margin: 50px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    border-radius: 50px;
+    text-wrap: wrap;
+}
+.whtx{
+    color: white;
+    margin-left: 70px;
+}
+.whbx{
+    width: 80%;
+    margin-left: 70px;
+    padding: 5px;
+}
+.whbtx{
+    width: 80%;
+    height: 100px;
+    margin-left: 70px;
+    padding: 5px;
+}
+.submitbn{
+    margin: 20px;
+    margin-left: 70px;
+    padding: 5px;
+    background-color: rgb(73, 73, 247);
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 15px;
+}
